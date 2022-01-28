@@ -20,20 +20,26 @@
         <option value="powerful">Because it's powerful</option>
       </select>
       <div>
-        <label for="language">Favorite Language (choose one)</label>
+        <p>Favorite Language (choose one)<p>
       </div>
-      <input type="radio" name="language" value="html"> HTML
-      <input type="radio" name="language" value="css"> CSS
-      <input type="radio" name="language" value="javascript"> JavaScript
+      <label for="html">
+        <input type="radio" name="html" id="html" value="html"> HTML
+      </label>
+      <label for="css">
+        <input type="radio" name="css" id="css" value="css"> CSS
+      </label>
+      <label for="javascript">
+        <input type="radio" name="language" id="javascript" value="javascript"> JavaScript
+      </label>
       <div>
         <label for="signup">Would you like to sign up for more information?</label>
       </div>
-      <input type="checkbox" name="signup" value="signup"> Sign me up!
+      <input type="checkbox" name="signup" id="signup" value="signup"> Sign me up!
       <div>
         <label for="comments">Comments</label>
       </div>
       <div>
-        <textarea name="comments" cols="40" rows="10"></textarea>
+        <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
       </div>
       <div><input type="submit" name="submit" value="Submit"></div>
     </form>
