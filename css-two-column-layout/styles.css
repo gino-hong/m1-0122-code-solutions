@@ -1,0 +1,44 @@
+* {
+  font-family: Karla, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column-half {
+  flex-basis: calc(100% / 2);
+  display: flex;
+  padding: 2.5% 5%;
+}
+
+.column-full {
+  text-align: center;
+  width: 60%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  line-height: 2;
+  color: gray;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: orangered;
+  border-color: orangered;
+  font-size: large;
+}
