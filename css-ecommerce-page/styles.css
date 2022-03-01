@@ -1,0 +1,27 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+img {
+  width: 250px;
+  height: 375px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.light-gray-text {
+  color: #d3d3d3;
+}
+
+.orange-background {
+  background-color: #fff2e7;
+}
