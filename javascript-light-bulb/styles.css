@@ -1,0 +1,29 @@
+.dark-background {
+  background-color: #111;
+}
+
+.light-background {
+  background-color: #fef9f1;
+}
+
+.dark-button {
+  background-color: #252525;
+}
+
+.light-button {
+  background-color: #faea85;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+}
+
+div {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
